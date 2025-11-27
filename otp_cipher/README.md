@@ -38,14 +38,15 @@ Below is the encoding table:
 - Generate a random OTP key of equal length.
 - Encrypt using XOR:  
 
-  $$
-  C = M \oplus K
-  $$
+$$
+C = M \oplus K
+$$
   
 - Decrypt using XOR:  
 
-  $$
-  M = C \oplus K
-  $$
+$$
+M = C \oplus K
+$$
 
 - Convert the final result back to text using the same table.
+
