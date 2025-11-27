@@ -11,9 +11,11 @@ $$
 
 Your tasks are:
 
-**Decoding formula:**  
+**Decoding formula:**
+
 $$
 m = c \oplus (c \ll 2) \oplus (c \ll 4) \oplus (c \ll 12) \oplus (c \ll 14)
 $$
 
 Implement appropriate code (see `ex3.py`) to verify that the decoding formula you derive is correct.
+
