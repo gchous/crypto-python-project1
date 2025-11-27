@@ -9,9 +9,10 @@ This exercise implements and analyzes the **Caesar cipher**, one of the simplest
 
   $$
   C = (P + k) \bmod 26
-  $$$
+  $$
   
   where \( k \) is a randomly generated key.
+
 - Decrypts messages using the inverse operation:
 
   $$
@@ -28,3 +29,4 @@ This exercise implements and analyzes the **Caesar cipher**, one of the simplest
 - Apply brute-force search to break the cipher and recover the original message.
 
 - Observe why the Caesar cipher is insecure due to its very small keyspace.
+
