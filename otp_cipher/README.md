@@ -8,7 +8,7 @@ The key is randomly chosen and has the **same length** (in bits) as the message.
 
 The result of the encryption must **not** be displayed in bits, but instead converted back into **Latin characters** using the same table.
 
-Below is the encoding table (from page 20):
+Below is the encoding table:
 
 | | |
 |------|------|
@@ -37,11 +37,15 @@ Below is the encoding table (from page 20):
 - Convert each character to a 5-bit binary value.
 - Generate a random OTP key of equal length.
 - Encrypt using XOR:  
-  \[
+
+  $$
   C = M \oplus K
-  \]
+  $$
+  
 - Decrypt using XOR:  
-  \[
+
+  $$
   M = C \oplus K
-  \]
+  $$
+
 - Convert the final result back to text using the same table.
